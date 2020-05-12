@@ -1,0 +1,48 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(31,37,53);
+    color: white;
+}
+
+.Mynavbar{
+    border: 5px solid red;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-around;
+}
+
+.Mynavbarlogo{
+    border: 1px solid blue;
+    padding-left: 2rem;
+}
+
+.Mynavbarmenu{
+    border: 1px solid yellow;
+}
+
+.button {
+    background-color: white;  
+    border-radius: 5px;
+    color: rgb(31,37,53);
+    padding: .5em;
+    text-decoration: none;
+  }
+  
+  .button:focus,
+  .button:hover {
+    background-color: rgba(255, 255, 255, 0.858);
+    color: rgb(31,37,53));
+  }
+
+#headline{
+font-size: 4.2em;
+}
+
+#description{
+font-size: 1em;
+font-weight:100;
+}
