@@ -3,10 +3,13 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(31,37,53);
     color: white;
+    background-size: cover;
 }
 
+
+
 .Mynavbar{
-    border: 5px solid red;
+    padding-top: 20px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -16,33 +19,133 @@
 }
 
 .Mynavbarlogo{
-    border: 1px solid blue;
+
     padding-left: 2rem;
 }
 
 .Mynavbarmenu{
-    border: 1px solid yellow;
+    
+    padding-right: 2rem;
+}
+
+
+
+
+
+.row{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: initial;
+	align-items: flex-start;
+    align-content: initial;
+    
+    padding: 1rem;
+}
+
+.col-6{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+    align-content: space-around;  
+    
 }
 
 .button {
     background-color: white;  
     border-radius: 5px;
     color: rgb(31,37,53);
-    padding: .5em;
+    padding: 1.5em;
     text-decoration: none;
-  }
-  
-  .button:focus,
-  .button:hover {
+}
+
+.button:focus,
+.button:hover {
     background-color: rgba(255, 255, 255, 0.858);
-    color: rgb(31,37,53));
-  }
+    color: rgb(31,37,53);
+}
 
 #headline{
-font-size: 4.2em;
+font-size: 3.5em;
+
 }
 
 #description{
-font-size: 1em;
+font-size: 0.9em;
 font-weight:100;
+}
+
+.iconsdiv{
+    background-color: rgba(255, 255, 255, 0.858);
+   
+}
+
+.cardsOrder{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+    align-content: center;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: center;
+   
+}
+
+ .cardbody{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: center;
+    
+} 
+
+
+.title{
+    color:rgb(31,37,53);
+    font-size:x-large ;
+}
+
+.text{
+    font-size: medium;
+    font-weight: lighter;
+    color: darkgray;
+    
+}
+
+
+
+.reactlogosplit{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: space-around;
+    
+}
+
+.greetsize{
+    max-width: 500px;
+    
+}
+
+.logocontainer{
+    max-width: 500px;
+    
 }
